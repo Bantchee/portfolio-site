@@ -1,7 +1,7 @@
 import React from "react";
 import pic from "../img/my_pic.jpg";
 
-const Portfolio = () => {
+const Home = () => {
     return (
         <div
             id="Portfolio"
@@ -27,4 +27,4 @@ const Portfolio = () => {
     )
 }
 
-export default Portfolio;
+export default Home;
