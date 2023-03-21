@@ -3,7 +3,6 @@ import { React } from "react";
 const Header = () => {
     return (
         <nav
-            id="home"
             className="flex justify-between pt-6 px-16 text-4xl font-bold"
         >
             <a className="hover:underline" href="#home">J. Steven Jarrett</a>
