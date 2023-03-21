@@ -4,7 +4,7 @@ import pic from "../img/my_pic.jpg";
 const Home = () => {
     return (
         <div
-            id="Portfolio"
+            id="Home"
             className="flex flex-col items-center justify-center text-2xl font-bold"
         >
             <p>Front End Engineer</p>
