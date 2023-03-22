@@ -1,5 +1,8 @@
 import React from "react";
 import pic from "../img/my_pic.jpg";
+import { faTwitter, faInstagram, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Home = () => {
     return (
@@ -14,14 +17,11 @@ const Home = () => {
                 className="w-48 rounded-full"
             />
             <div>
-                <p>Social Links</p>
-                {/* 
-                    email
-                    twitter
-                    instagram
-                    linkin
-                    github
-                */}
+                <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
+                <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+                <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a href="#"><FontAwesomeIcon icon={faGithub} /></a>
             </div>
         </div>
     )
