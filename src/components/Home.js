@@ -14,7 +14,7 @@ const Home = () => {
                 className="text-center max-w-xl font-bold"
             >
                 <p
-                    className="text-4xl mb-1 hover:text-neutral-500"    
+                    className="text-4xl mb-1"    
                 >
                     J. Steven Jarrett
                 </p>
