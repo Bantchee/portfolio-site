@@ -3,15 +3,14 @@ import { React } from "react";
 const Header = () => {
     return (
         <nav
-            className="flex justify-between pt-6 px-16 text-4xl font-bold"
+            className="flex justify-center items-center pt-6 px-16 text-4xl font-bold mb-12"
         >
-            <a className="hover:underline" href="#home">J. Steven Jarrett</a>
             <ul
                 className="flex gap-8"
             >
-                <li className="hover:underline"><a href="#Portfolio">Portfolio</a></li>
-                <li className="hover:underline"><a href="#About">About</a></li>
-                <li className="hover:underline"><a href="#Contact">Contact</a></li>
+                <li className="hover:underline hover:text-neutral-500"><a href="#Portfolio">Portfolio</a></li>
+                <li className="hover:underline hover:text-neutral-500"><a href="#Blog">Blog</a></li>
+                <li className="hover:underline hover:text-neutral-500"><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
     )
