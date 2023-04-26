@@ -1,6 +1,6 @@
 import React from "react";
 import pic from "../img/my_pic.jpg";
-import { faLinkedin, faGithub, faHtml5, faCss3, faJs, faNodeJs, faReact, faGit, faFigma, faGitAlt, faNpm, } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub, faHtml5, faCss3, faJs, faNodeJs, faReact, faFigma, faGitAlt, faNpm, } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTerminal } from "@fortawesome/free-solid-svg-icons";
