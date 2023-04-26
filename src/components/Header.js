@@ -5,7 +5,7 @@ import { React } from "react";
 const Header = () => {
     return (
         <nav
-            className="flex justify-end items-center pt-6 px-16 text-4xl font-bold mb-12"
+            className="flex justify-end items-center px-16 text-4xl font-bold mb-12"
         >
             <ul
                 className="flex gap-8"
