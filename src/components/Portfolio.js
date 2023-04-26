@@ -77,7 +77,7 @@ const Home = () => {
                 </div>
             </div>
             <div
-                id="Portfolio-Projects"
+                id="Portfolio-Skills"
                 className="flex flex-col items-center max-w-6xl mx-auto"
             >
                 <div className="flex items-center gap-4 font-bold">
