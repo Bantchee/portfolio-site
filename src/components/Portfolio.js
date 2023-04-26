@@ -11,13 +11,9 @@ import vscodeIcon from "../icons/vscode.svg";
 
 const Home = () => {
     return (
-        <div
-            id="Portfolio"
-        >
+        <div id="Portfolio" className="flex flex-col gap-4">
             <div id="About" className="flex flex-col items-center max-w-6xlmx-auto">
-                <div
-                    className="flex flex-col items-center justify-center text-center max-w-xl font-bold"
-                >
+                <div className="flex flex-col items-center justify-center text-center max-w-xl font-bold" >
                     <p
                         className="text-4xl mb-1"    
                     >
@@ -65,6 +61,27 @@ const Home = () => {
                 </div>
             
             </div>
+            
+            <div id="Projects" className="flex flex-col items-center gap-4">
+                <div className="flex items-center justify-center gap-6">
+                    <div className=" w-72 h-48 bg-neutral-500">
+                        <a href="#">Site</a>
+                        <a href="#">Code</a>
+                    </div>
+                    <div className=" w-72 h-48 bg-neutral-500">
+                        <a href="#">Site</a>
+                        <a href="#">Code</a>
+                    </div>
+                    <div className=" w-72 h-48 bg-neutral-500">
+                        <a href="#">Site</a>
+                        <a href="#">Code</a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#" className="bg-black rounded-md text-white font-bold p-2 text-xl">More Projects</a>
+                </div>
+            </div>
+
             <div id="Skills" className="flex flex-col items-center max-w-6xl mx-auto">
                 <div className="flex items-center gap-4 font-bold">
                     <p className="text-2xl mb-1">Languages |</p>
@@ -91,9 +108,6 @@ const Home = () => {
                     <FontAwesomeIcon icon={faTerminal} size="2x" className="text-black" title="Terminal"/>
                 </div>
                 {/* Set Up to pull from JSON / Database */}
-
-            </div>
-            <div id="Projects">
 
             </div>
         </div>
