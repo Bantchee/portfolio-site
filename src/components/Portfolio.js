@@ -14,7 +14,7 @@ const Home = () => {
         <div
             id="Portfolio"
         >
-            <div id="Portfolio-About" className="flex flex-col items-center max-w-6xlmx-auto">
+            <div id="About" className="flex flex-col items-center max-w-6xlmx-auto">
                 <div
                     className="flex flex-col items-center justify-center text-center max-w-xl font-bold"
                 >
@@ -65,7 +65,7 @@ const Home = () => {
                 </div>
             
             </div>
-            <div id="Portfolio-Skills" className="flex flex-col items-center max-w-6xl mx-auto">
+            <div id="Skills" className="flex flex-col items-center max-w-6xl mx-auto">
                 <div className="flex items-center gap-4 font-bold">
                     <p className="text-2xl mb-1">Languages |</p>
                     <FontAwesomeIcon icon={faHtml5} size="2x" className="text-orange-500" title="HTML5"/>
@@ -91,6 +91,9 @@ const Home = () => {
                     <FontAwesomeIcon icon={faTerminal} size="2x" className="text-black" title="Terminal"/>
                 </div>
                 {/* Set Up to pull from JSON / Database */}
+
+            </div>
+            <div id="Projects">
 
             </div>
         </div>
