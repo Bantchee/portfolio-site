@@ -78,7 +78,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div>
-                    <a href="#" className="bg-black rounded-md text-white font-bold p-2 text-xl">More Projects</a>
+                    <a href="https://github.com/Bantchee" target="_blank" rel="noreferrer" className="bg-black rounded-md text-white font-bold p-2 text-xl">More Projects</a>
                 </div>
             </div>
 
