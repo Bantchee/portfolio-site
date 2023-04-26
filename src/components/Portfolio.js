@@ -1,5 +1,4 @@
 import React from "react";
-import pic from "../img/my_pic.jpg";
 import { faLinkedin, faGithub, faHtml5, faCss3, faJs, faNodeJs, faReact, faFigma, faGitAlt, faNpm, } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,10 +14,7 @@ const Home = () => {
         <div
             id="Portfolio"
         >
-            <div
-                id="Portfolio-About"
-                className="flex items-center justify-between max-w-3xl mx-auto"
-            >
+            <div id="Portfolio-About" className="flex flex-col items-center max-w-6xlmx-auto">
                 <div
                     className="flex flex-col items-center justify-center text-center max-w-xl font-bold"
                 >
@@ -68,18 +64,8 @@ const Home = () => {
                     </div>
                 </div>
             
-                <div>
-                <img 
-                    src={pic} 
-                    alt="J. Steven Jarrett" 
-                    className="w-36"
-                />
-                </div>
             </div>
-            <div
-                id="Portfolio-Skills"
-                className="flex flex-col items-center max-w-6xl mx-auto"
-            >
+            <div id="Portfolio-Skills" className="flex flex-col items-center max-w-6xl mx-auto">
                 <div className="flex items-center gap-4 font-bold">
                     <p className="text-2xl mb-1">Languages |</p>
                     <FontAwesomeIcon icon={faHtml5} size="2x" className="text-orange-500" title="HTML5"/>
