@@ -8,10 +8,11 @@ import jestIcon from "../icons/jest.svg";
 import mongodbIcon from "../icons/mongoDB.svg";
 import tailwindCSSIcon from "../icons/tailwindCSS.svg";
 import vscodeIcon from "../icons/vscode.svg";
+import Projects from "./Projects";
 
 const Home = () => {
     return (
-        <div id="Portfolio" className="flex flex-col gap-4">
+        <div id="Portfolio" className="flex flex-col gap-4 items-center justify-center">
             <div id="About" className="flex flex-col items-center max-w-6xlmx-auto">
                 <div className="flex flex-col items-center justify-center text-center max-w-xl" >
                     <h1 className="text-4xl md:text-7xl mb-1 md:mb-3 font-bold">
@@ -28,14 +29,14 @@ const Home = () => {
                                 size="2x"
                             />
                         </a>
-                        <a href="https://www.linkedin.com/in/steven-jarrett-b52296263/" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/steven-jarrett-b52296263/" target="_blank" rel="noreferrer noopener">
                             <FontAwesomeIcon   
                                 icon={faLinkedin}
                                 className="hover:text-neutral-500"
                                 size="2x" 
                             />
                         </a>
-                        <a href="https://github.com/Bantchee" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/Bantchee" target="_blank" rel="noreferrer noopener">
                             <FontAwesomeIcon 
                                 icon={faGithub} 
                                 className="hover:text-neutral-500"
@@ -48,21 +49,7 @@ const Home = () => {
             </div>
             
             <div id="Projects" className="flex flex-col items-center gap-4">
-                {/* Set Up to pull from JSON / Database */}
-                <div className="flex items-center justify-center gap-6">
-                    <div className=" w-72 h-48 bg-neutral-500">
-                        <a href="#">Site</a>
-                        <a href="#">Code</a>
-                    </div>
-                    <div className=" w-72 h-48 bg-neutral-500">
-                        <a href="#">Site</a>
-                        <a href="#">Code</a>
-                    </div>
-                    <div className=" w-72 h-48 bg-neutral-500">
-                        <a href="#">Site</a>
-                        <a href="#">Code</a>
-                    </div>
-                </div>
+                <Projects />
 
                 <div id="Skills" className="flex flex-col items-center max-w-6xl mx-auto">
                     <div className="flex items-center gap-4 font-bold">
@@ -92,7 +79,7 @@ const Home = () => {
                 </div>
 
                 <div>
-                        <a href="https://github.com/Bantchee" target="_blank" rel="noreferrer" className="bg-black rounded-md text-white font-bold p-2 text-xl">More Projects</a>
+                        <a href="https://github.com/Bantchee" target="_blank" rel="noreferrer noopener" className="bg-black rounded-md text-white font-bold p-2 text-xl">More Projects</a>
                 </div>
             </div>
 
