@@ -52,14 +52,14 @@ const Home = () => {
                 <Projects />
 
                 <div id="Skills" className="flex flex-col items-center max-w-6xl mx-auto">
-                    <div className="flex items-center gap-4 font-bold">
-                        <p className="text-2xl mb-1">Languages |</p>
+                    <div className="flex items-center font-bold md:gap-x-4 sm:gap-x-2 flex-wrap">
+                        <p className="text-2xl mb-1 mr-1">Languages |</p>
                         <FontAwesomeIcon icon={faHtml5} size="2x" className="text-orange-500" title="HTML5"/>
                         <FontAwesomeIcon icon={faCss3} size="2x"  className="text-blue-500" title="CSS3"/>
                         <FontAwesomeIcon icon={faJs} size="2x" className="text-yellow-500" title="JavaScript"/>
                     </div>
-                    <div className="flex items-center gap-4 font-bold">
-                        <p className="text-2xl mb-1">Technologies |</p>
+                    <div className="flex items-center justify-center font-bold md:gap-x-4 sm:gap-x-2 flex-wrap">
+                        <p className="text-2xl mb-1 mr-1">Tech |</p>
                         <FontAwesomeIcon icon={faNodeJs} size="2x" className="text-green-500" title="Node.js"/>
                         <FontAwesomeIcon icon={faReact} size="2x" className="text-blue-500" title="React.js"/>
                         <img src={expressIcon} alt="express icon" className="w-10" title="Express.js"/>
@@ -67,8 +67,8 @@ const Home = () => {
                         <img src={tailwindCSSIcon} alt="tailwind css icon" className="w-10" title="Tailwind CSS"/>
                         <img src={jestIcon} alt="jest icon" className="w-10" title="Jest"/>
                     </div>
-                    <div className="flex items-center gap-4 font-bold">
-                        <p className="text-2xl mb-1">Tools |</p>
+                    <div className="flex items-center font-bold md:gap-x-4 sm:gap-x-2 flex-wrap">
+                        <p className="text-2xl mb-1 mr-1">Tools |</p>
                         <img src={vscodeIcon} alt="jest icon" className="w-10 fill-blue-500" title="VSCode"/>
                         <FontAwesomeIcon icon={faNpm} size="2x" className="text-red-500" title="npm"/>
                         <FontAwesomeIcon icon={faGitAlt} size="2x" className="text-orange-500" title="Git"/>
