@@ -12,9 +12,9 @@ const ProjectItem = ({title, description, imgUrl, siteLink, codeLink}) => {
             <img 
                 src={imgUrl} 
                 alt="portfolio project"
-                className="w-full h-32 md:h-48 object-cover cursor-ponter rounded-md"
+                className="h-32 md:h-48 object-cover cursor-ponter rounded-md"
             />
-            <div className="w-full flex flex-col items-center">
+            <div className="flex flex-col items-center">
                 <h3 className="font-bold text-xl">{title}</h3>
                 <div className="flex gap-2">
                     <a 
