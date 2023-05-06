@@ -7,7 +7,7 @@ const projects = [
         title: "Developer Portfolio",
         description: "My portfolio site",
         imgUrl: portfolioImg,
-        siteLink: "https://bantchee.github.io/portfolio-site/",
+        siteLink: "https://stevenjarrett.netlify.app/",
         codeLink: "https://github.com/Bantchee/portfolio-site",
     },
     {
