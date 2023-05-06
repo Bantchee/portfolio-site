@@ -6,7 +6,7 @@ const ProjectItem = ({title, description, imgUrl, siteLink, codeLink}) => {
 
     return (
         <div 
-            className="border-2 border-black rounded-md p-2 cursor-pointer"
+            className="border-2 border-black rounded-md p-2"
             onClick={() => setDisplayDescription(!displayDescription)}
         >
             <img 
