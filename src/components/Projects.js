@@ -9,6 +9,7 @@ const Projects = () => {
                 {projects.map(project => (
                     <ProjectItem
                         title={project.title}
+                        projectType={project.projectType}
                         description={project.description}
                         imgUrl={project.imgUrl}
                         codeLink={project.codeLink}

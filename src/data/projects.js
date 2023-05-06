@@ -6,13 +6,15 @@ const projects = [
     {
         title: "Developer Portfolio",
         description: "My portfolio site",
+        projectType: "Full Stack",
         imgUrl: portfolioImg,
         siteLink: "https://stevenjarrett.netlify.app/",
         codeLink: "https://github.com/Bantchee/portfolio-site",
     },
     {
         title: "Gymshark Store",
-        description: "An online store selling gymshark clothing",
+        description: "An online store selling gymshark clothing.",
+        projectType: "Front End",
         imgUrl: gymsharkImg,
         siteLink: "https://bantchee.github.io/shopping-cart/",
         codeLink: "https://github.com/Bantchee/shopping-cart",
@@ -20,6 +22,7 @@ const projects = [
     {
         title: "Grocery Inventory App",
         description: "An CRUD application for documenting foods in stores and on farms.",
+        projectType: "Back End",
         imgUrl: inventoryImg,
         siteLink: "",
         codeLink: "https://github.com/Bantchee/grocery-inventory-app",

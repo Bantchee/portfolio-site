@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const ProjectItem = ({title, description, imgUrl, siteLink, codeLink}) => {
+const ProjectItem = ({title, description, projectType, imgUrl, siteLink, codeLink}) => {
     const [displayDescription, setDisplayDescription] = useState(false);
 
     return (
@@ -16,6 +16,7 @@ const ProjectItem = ({title, description, imgUrl, siteLink, codeLink}) => {
             />
             <div className="flex flex-col items-center">
                 <h3 className="font-bold text-xl">{title}</h3>
+                <h4 className="font-bold text-md pb-1">{projectType}</h4>
                 <div className="flex gap-2">
                     <a 
                         href={siteLink}  
